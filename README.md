@@ -1,2 +1,13 @@
 # Bioinformatics-and-R
 Bioinformatics and R Tutorials
+This notebook takes a practical approach to R to derive biological understanding from large amounts of data. Most biologists can analyze their data using Microsoft Excel or more sophisticated tools such as SPSS but with the increasing usage of large sequencing datasets and computational tools to analyze genomic's data it is necessary to ensure that these automated methods are still as reproducible and robust as any other experimental approaches. For example after running a RNA-seq there are 10,000's of genes and the level of expression has to be measured across a dozens of samples. Typical questions are:
+Which genes are differentially expressed over dozen of samples between control tests environment and treatment?
+How can we normalize the RNA-seq counts between samples?
+What is the correct model of statistical error to describe the distribution of counted data across samples?
+We measure thousands of genes on a only a few dozen samples, how can we perform statistical tests to extract relevant information on a relatively small experimental design? ... My intern research lab experiences at both UCSB Reese lab, Neuroscience Research Institute and undergraduate UC Berkeley Coates Lab, Energy Bioscience Institute have taught me couple of facts:
+bioinformaticians have to rerun an analysis more than once with eventually new or changed data.
+team members be they bioinformaticians collaborators, advisor or software engineers will need to look into your project and understand it. Hence documentint the project in a non cryptic way is essential. It is like keeping a detailed lab notebook.
+Reuse of existing software libraries. writing your own code is always exciting but code quality and speed is the essence here. R, Python have open source libraries that have been tested with a wider audience and consequently have less bugs.
+For all the above reasons this project will use jupyter notebook as an authoring tool, R and R libraries and in this first phase will be published on github to be shared. In a second phase it will add collaboration and sharing capabilities such as adding discussions and saved them in the project itself, being able to access and build upon other bioinformatics project. The utlimate end game is to be able to have new team members ramp up faster via collaboration and sharing capabilities.
+
+We will use a practical approach to R by learning by doing exercises. We will start familiarizing ourselves with R basic scripts by exploring classical internal R data sets such as the Iris and the Body Fat dataset and move the Bioconductor.org datasets
